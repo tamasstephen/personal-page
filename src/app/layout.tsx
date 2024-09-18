@@ -21,6 +21,14 @@ export default function RootLayout({
       <body
         className={`${inter.className} antialiased has-[.open-menu]:overflow-hidden`}
       >
+        <div
+          id="skip"
+          className="absolute top-[-999px] left-[-999px] has-[:focus]:left-10 has-[:focus]:top-10 transition-all duration-300 bg-black p-2 z-50 rounded-md"
+        >
+          <a className="text-white" href="#about">
+            Skip Content
+          </a>
+        </div>
         <Navigation />
         {children}
       </body>
