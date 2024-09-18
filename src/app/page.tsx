@@ -1,9 +1,12 @@
-import { Hero } from "./components";
+import { Hero, Skills } from "./components";
 
 export default function Home() {
   return (
     <main className="flex justify-center">
-      <Hero />
+      <div>
+        <Hero />
+        <Skills />
+      </div>
     </main>
   );
 }

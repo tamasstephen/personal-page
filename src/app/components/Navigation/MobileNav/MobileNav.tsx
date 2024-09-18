@@ -7,6 +7,7 @@ export const MobileNav = () => {
   const [isVisible, setIsVisible] = useState("-translate-x-full");
   const openMenu = () => setIsVisible("translate-x-0 open-menu");
   const closeMenu = () => setIsVisible("-translate-x-full");
+  const onClick = () => closeMenu();
   return (
     <>
       <li className="ml-auto md:hidden">
@@ -18,10 +19,20 @@ export const MobileNav = () => {
             Close
           </button>
           <ul className="w-full h-full relative flex flex-col items-center justify-center">
-            <NavLink title="About" link="about" isMobile />
-            <NavLink title="Skills" link="skills" isMobile />
-            <NavLink title="Projects" link="projects" isMobile />
-            <NavLink title="Contact" link="contact" isMobile />
+            <NavLink title="About" link="about" isMobile onClick={onClick} />
+            <NavLink title="Skills" link="skills" onClick={onClick} isMobile />
+            <NavLink
+              title="Projects"
+              link="projects"
+              onClick={onClick}
+              isMobile
+            />
+            <NavLink
+              title="Contact"
+              link="contact"
+              onClick={onClick}
+              isMobile
+            />
           </ul>
         </div>
       </li>

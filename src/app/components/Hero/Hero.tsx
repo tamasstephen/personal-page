@@ -6,10 +6,7 @@ import { ContactLinks } from "../ContactLinks";
 export const Hero = () => {
   return (
     <Wrapper>
-      <section
-        className="md:flex md:justify-between md:gap-20 w-full"
-        id="about"
-      >
+      <section className="md:flex md:justify-between md:gap-20" id="about">
         <div className="w-full md:w-1/3 md:flex md:justify-end">
           <div className="flex flex-col gap-4 items-center w-[120px] md:w-[200px] md:order-last">
             <div className="relative aspect-square">
