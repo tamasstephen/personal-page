@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 
 import "./globals.css";
 import { Inter } from "next/font/google";
+import { Navigation } from "./components";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -17,7 +18,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} antialiased`}>{children}</body>
+      <body
+        className={`${inter.className} antialiased has-[.open-menu]:overflow-hidden`}
+      >
+        <Navigation />
+        {children}
+      </body>
     </html>
   );
 }
