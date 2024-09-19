@@ -57,7 +57,9 @@ export const ToolBox = ({ isFirst }: ToolboxProps) => {
             src={isFirst ? firstBoxContent.icon : secondBoxContent.icon}
             alt="terminal icon"
           />
-          <span className="ml-2">Languages I speak</span>
+          <span className="ml-2">
+            {isFirst ? "Languages I speak" : "Tools I use"}
+          </span>
         </p>
         <ul className="list-disc pl-6 grid gap-2 mt-6">
           {isFirst ? firstBoxContent.el : secondBoxContent.el}
