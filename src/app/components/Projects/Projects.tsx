@@ -14,7 +14,7 @@ export const Projects = () => {
             <li key={project.id} className="grid gap-5 group lg:hover:">
               <Link href={`/${slug}`}>
                 <article className="md:grid md:grid-cols-2 gap-5 relative">
-                  <div className="absolute inset-0 lg:bg-gradient-to-r pointer-events-none transition-all lg:group-hover:from-[#8087AB]/[0.3] lg:group-hover:to-[#BCC3EB]/[0.3] lg:group-hover:shadow-sm rounded-md z-[-1] lg:w-[104%] lg:h-[114%] lg:translate-x-[-2%] lg:translate-y-[-7%]"></div>
+                  <div className="absolute inset-0 lg:bg-gradient-to-r pointer-events-none transition-all lg:group-hover:from-[#8087AB]/[0.1] lg:group-hover:to-[#A0A5C0]/[0.1] lg:group-hover:shadow-sm rounded-md z-[-1] lg:w-[104%] lg:h-[114%] lg:translate-x-[-2%] lg:translate-y-[-7%]"></div>
                   <div className="relative aspect-video">
                     <Image
                       className="rounded-md object-cover group-hover:border border-[#C0B8A0] transition-all duration-75"
