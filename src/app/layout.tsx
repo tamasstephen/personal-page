@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 import "./globals.css";
 import { Inter } from "next/font/google";
-import { Navigation } from "./components";
+import { Footer, Navigation } from "./components";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -31,6 +31,7 @@ export default function RootLayout({
         </div>
         <Navigation />
         {children}
+        <Footer />
       </body>
     </html>
   );

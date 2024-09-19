@@ -18,6 +18,7 @@ export const ProjectCard = ({ project, slug }: ProjectCardProps) => {
             src={project.image}
             alt={project.coverAlt}
             fill
+            sizes="100%"
           />
         </div>
         <div className="flex flex-col gap-7 mt-5 md:mt-0">

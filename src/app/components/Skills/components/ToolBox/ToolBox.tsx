@@ -56,6 +56,7 @@ export const ToolBox = ({ isFirst }: ToolboxProps) => {
           <Image
             src={isFirst ? firstBoxContent.icon : secondBoxContent.icon}
             alt="terminal icon"
+            className="w-auto"
           />
           <span className="ml-2">
             {isFirst ? "Languages I speak" : "Tools I use"}

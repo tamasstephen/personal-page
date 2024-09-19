@@ -6,3 +6,5 @@ export { Navigation } from "./Navigation";
 export { Skills } from "./Skills";
 export { H2 } from "./H2";
 export { Projects } from "./Projects";
+export { Contact } from "./Contact";
+export { Footer } from "./Footer";
