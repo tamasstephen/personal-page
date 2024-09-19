@@ -6,10 +6,7 @@ import { ContactLinks } from "../ContactLinks";
 export const Hero = () => {
   return (
     <Wrapper>
-      <section
-        className="md:flex md:justify-between md:gap-20 w-full"
-        id="about"
-      >
+      <section className="md:flex md:justify-between md:gap-20" id="about">
         <div className="w-full md:w-1/3 md:flex md:justify-end">
           <div className="flex flex-col gap-4 items-center w-[120px] md:w-[200px] md:order-last">
             <div className="relative aspect-square">
@@ -27,11 +24,11 @@ export const Hero = () => {
           </p>
           <p className="lg:text-xl text-paragraphColor">
             I specialize in building dynamic, user-friendly interfaces with a
-            focus on usability and accessibility. I have a deep commitment to
-            creating visually appealing and highly functional web applications
-            that provide seamless user experiences. Throughout my career, I’ve
-            had the privilege to work in dynamic digital agencies and contribute
-            to healthcare applications, where delivering high-quality,
+            focus on usability. I have a deep commitment to creating visually
+            appealing and highly functional web applications that provide
+            seamless user experiences. Throughout my career, I’ve had the
+            privilege to work in dynamic digital agencies and contribute to
+            healthcare applications, where delivering high-quality,
             user-centered web solutions was paramount.
           </p>
         </div>
