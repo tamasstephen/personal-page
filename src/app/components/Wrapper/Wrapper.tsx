@@ -1,5 +1,12 @@
 import { PropsWithChildren } from "react";
 
-export const Wrapper = ({ children }: PropsWithChildren) => {
-  return <div className="mx-5 max-w-[52.5rem]">{children}</div>;
+interface WrapperProps extends PropsWithChildren {
+  isFooter?: boolean;
+}
+export const Wrapper = ({ children, isFooter }: WrapperProps) => {
+  return (
+    <div className={`mx-5 max-w-[52.5rem] ${isFooter ? "w-full" : ""}`}>
+      {children}
+    </div>
+  );
 };
