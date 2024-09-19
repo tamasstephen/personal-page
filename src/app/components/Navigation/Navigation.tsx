@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { NavLink } from "./NavLink";
 import { MobileNav } from "./MobileNav";
+import { navItems } from "@/app/constants";
 
 export const Navigation = () => {
   return (
@@ -18,11 +19,14 @@ export const Navigation = () => {
         <li className="w-32 leading-tight font-bold tracking-tighter text-xl">
           <Link href="#about">TS.</Link>
         </li>
-        <NavLink title="About" link="about" isFirst />
-        <NavLink title="Skills" link="skills" />
-        <NavLink title="Projects" link="projects" />
-        <NavLink title="Contact" link="contact" />
-
+        {navItems.map((item, idx) => (
+          <NavLink
+            title={item.title}
+            link={item.link}
+            key={item.id}
+            isFirst={idx === 0 ? true : false}
+          />
+        ))}
         <MobileNav />
       </ul>
     </nav>

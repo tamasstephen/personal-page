@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { NavLink } from "../NavLink";
+import { navItems } from "@/app/constants";
 
 export const MobileNav = () => {
   const [isVisible, setIsVisible] = useState("-translate-x-full");
@@ -19,20 +20,15 @@ export const MobileNav = () => {
             Close
           </button>
           <ul className="w-full h-full relative flex flex-col items-center justify-center">
-            <NavLink title="About" link="about" isMobile onClick={onClick} />
-            <NavLink title="Skills" link="skills" onClick={onClick} isMobile />
-            <NavLink
-              title="Projects"
-              link="projects"
-              onClick={onClick}
-              isMobile
-            />
-            <NavLink
-              title="Contact"
-              link="contact"
-              onClick={onClick}
-              isMobile
-            />
+            {navItems.map((item) => (
+              <NavLink
+                title={item.title}
+                link={item.link}
+                key={item.id}
+                isMobile
+                onClick={onClick}
+              />
+            ))}
           </ul>
         </div>
       </li>

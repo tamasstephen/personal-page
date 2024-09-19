@@ -24,11 +24,11 @@ export const Hero = () => {
           </p>
           <p className="lg:text-xl text-paragraphColor">
             I specialize in building dynamic, user-friendly interfaces with a
-            focus on usability and accessibility. I have a deep commitment to
-            creating visually appealing and highly functional web applications
-            that provide seamless user experiences. Throughout my career, I’ve
-            had the privilege to work in dynamic digital agencies and contribute
-            to healthcare applications, where delivering high-quality,
+            focus on usability. I have a deep commitment to creating visually
+            appealing and highly functional web applications that provide
+            seamless user experiences. Throughout my career, I’ve had the
+            privilege to work in dynamic digital agencies and contribute to
+            healthcare applications, where delivering high-quality,
             user-centered web solutions was paramount.
           </p>
         </div>
