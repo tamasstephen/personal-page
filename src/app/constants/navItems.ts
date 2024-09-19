@@ -3,4 +3,4 @@ export const navItems = [
   { title: "Skills", link: "skills", id: "nav-2" },
   { title: "Projects", link: "projects", id: "nav-3" },
   { title: "Contact", link: "contact", id: "nav-4" },
-];
+] as const;
