@@ -19,10 +19,12 @@ export const NavLink = ({
     <li
       className={`${isFirst ? "ml-auto" : "ml-5"} ${
         isMobile ? "block" : "hidden"
-      } md:block text-xl hover:underline ${isMobile ? "ml-0 mb-8" : ""}`}
+      } md:block text-white text-xl hover:underline ${
+        isMobile ? "ml-0 mb-8" : ""
+      }`}
       onClick={onClick}
     >
-      <Link href={`#${link}`}>{title}</Link>
+      <Link href={`/#${link}`}>{title}</Link>
     </li>
   );
 };

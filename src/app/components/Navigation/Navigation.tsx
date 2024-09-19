@@ -17,7 +17,7 @@ export const Navigation = () => {
       </h2>
       <ul className="flex items-center py-4 w-full xl:px-0 max-w-6xl  mx-5 xl:mx-0">
         <li className="w-32 leading-tight font-bold tracking-tighter text-xl">
-          <Link href="#about">TS.</Link>
+          <Link href="/#about">TS.</Link>
         </li>
         {navItems.map((item, idx) => (
           <NavLink
