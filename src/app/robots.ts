@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://personal-page-blue-ten.vercel.app/sitemap.xml",
+    sitemap: "https://tamasstephen.com/sitemap.xml",
   };
 }
