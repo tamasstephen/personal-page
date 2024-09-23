@@ -7,7 +7,7 @@ import { Footer, Navigation } from "./components";
 export const metadata: Metadata = {
   title: "Tamás Stephen Frontend Developer",
   description:
-    "Frontend developer specializing in React, Next.js, and TypeScript. Explore his portfolio.",
+    "Tamás Stephen is a frontend developer specializing in React, Next.js, and TypeScript. Explore his portfolio.",
 };
 
 const inter = Inter({ subsets: ["latin"] });
