@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   description:
     "Tamás Stephen is a frontend developer specializing in React, Next.js, and TypeScript. Explore his portfolio.",
   verification: {
-    google: "hyes2B0eM5mKNtg4gRHQqBTbEQrilpXCAFeAr5yuW1E",
+    google: "z-bM2fxskfZrgX9Wh4_E5W6oWyf-ZAlcQPSWXgN4Res",
   },
 };
 
