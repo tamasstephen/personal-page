@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: "Tamás Stephen Frontend Developer",
   description:
     "Tamás Stephen is a frontend developer specializing in React, Next.js, and TypeScript. Explore his portfolio.",
+  verification: {
+    google: "hyes2B0eM5mKNtg4gRHQqBTbEQrilpXCAFeAr5yuW1E",
+  },
 };
 
 const inter = Inter({ subsets: ["latin"] });
