@@ -10,7 +10,7 @@ interface ContactLinksProps {
 
 export const ContactLinks = ({ dontShowMail }: ContactLinksProps) => {
   return (
-    <div className="flex gap-4">
+    <div className="flex gap-2">
       <ContactIcon
         link={links.linkedin}
         image={LinkedInIcon}

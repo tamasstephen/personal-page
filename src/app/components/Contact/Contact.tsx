@@ -16,10 +16,10 @@ export const Contact = () => {
 
           <div>
             <a
-              className="relative flex py-4 px-6 font-bold text-xl lg:text-2xl bg-[#4D4F5D] w-full rounded-md text-white∂"
+              className="relative flex py-4 px-6 font-bold text-xl lg:text-2xl bg-[#4D4F5D] hover:bg-[#C0B8A0]/[0.1] hover:text-[#4D4F5D] tracking-tight transition-all w-full rounded-md text-white∂"
               href="mailto:tamas.stephen@proton.me"
             >
-              <div className="absolute inset-0 bg-yellow-400 top-0 left-0 w-[102%] h-[108%] translate-x-[-1%] rounded-md translate-y-[-4%]  z-[-1] bg-gradient-to-r from-[#8087AB] to-[#C0B8A0]"></div>
+              <div className="absolute inset-0 top-0 left-0 w-[102%] h-[108%] translate-x-[-1%] rounded-md translate-y-[-4%]  z-[-1] bg-gradient-to-r from-[#8087AB] to-[#C0B8A0]"></div>
               Get in Touch
             </a>
           </div>

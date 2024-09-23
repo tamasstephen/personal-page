@@ -19,7 +19,7 @@ export const NavLink = ({
     <li
       className={`${isFirst ? "ml-auto" : "ml-5"} ${
         isMobile ? "block" : "hidden"
-      } md:block text-white text-xl hover:underline ${
+      } flex relative md:block text-white text-xl after:content-[""] after:h-[2px] after:w-0 after:absolute after:bg-white after:-bottom-1 after:left-0 hover:after:w-full after:transition-all  ${
         isMobile ? "ml-0 mb-8" : ""
       }`}
       onClick={onClick}

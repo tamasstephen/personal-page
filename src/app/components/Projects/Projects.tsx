@@ -7,7 +7,7 @@ export const Projects = () => {
   return (
     <Wrapper>
       <section className="mt-32 mb-10" id="projects">
-        <H2>Things I&apos;ve done recently</H2>
+        <H2>Things I&apos;ve done recently.</H2>
         <ul className="mt-10 lg:mt-14 grid gap-10">
           {Object.entries(projects).map(([slug, project]) => (
             <li key={project.id} className="grid gap-5 group lg:hover:">
@@ -16,7 +16,7 @@ export const Projects = () => {
           ))}
         </ul>
       </section>
-      <p className="text-center text-lg">More to come...</p>
+      <p className="text-center text-lg text-paragraphColor">More to come...</p>
     </Wrapper>
   );
 };
