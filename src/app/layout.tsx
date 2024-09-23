@@ -17,9 +17,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="scroll-smooth">
+    <html lang="en" className="scroll-smooth h-full">
       <body
-        className={`${inter.className} antialiased has-[.open-menu]:overflow-hidden`}
+        className={`${inter.className} antialiased has-[.open-menu]:overflow-hidden h-full flex flex-col`}
       >
         <div
           id="skip"
