@@ -1,3 +1,4 @@
+import { redirect } from "next/navigation";
 import { Wrapper } from "../components";
 import { projects } from "../data";
 import Image from "next/image";
@@ -5,7 +6,7 @@ import Image from "next/image";
 export default function Page({ params }: { params: { slug: string } }) {
   const isProject = Object.keys(projects).includes(params.slug);
   if (!isProject) {
-    return <main>Project not found</main>;
+    redirect("/");
   }
   const details = projects[params.slug as keyof typeof projects];
   return (
@@ -19,7 +20,11 @@ export default function Page({ params }: { params: { slug: string } }) {
             <Image
               src={details.image}
               alt={details.coverAlt}
-              className="rounded-md"
+              className={`rounded-md ${
+                params.slug === "personal_website"
+                  ? "border border-[#C0B8A0]"
+                  : ""
+              }`}
             />
           </div>
         </section>

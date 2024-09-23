@@ -19,7 +19,7 @@ export const projects = {
   },
   personal_website: {
     id: "project-2",
-    title: "Personal Portfolio Website",
+    title: "Personal Website",
     description:
       "Built a responsive portfolio website using React, Next.js, Tailwind CSS, and TypeScript",
     tools: [
@@ -29,6 +29,7 @@ export const projects = {
     ],
     image: PersonalCover,
     coverAlt: "hero of my personal site",
-    overview: "",
+    overview:
+      "I designed and developed a responsive portfolio website using Next.js, TypeScript, and React. The site was built with a minimalist design, focusing on delivering a seamless user experience across all devices.\n\nLeveraging Next.js for server-side rendering and optimized performance, the site ensures fast load times and is highly SEO-friendly. The modular, component-based architecture of React powers the interactive features, offering smooth navigation and a dynamic feel. By using TypeScript, I ensured better code maintainability and reduced the likelihood of errors during development, making the codebase reliable.",
   },
 };
