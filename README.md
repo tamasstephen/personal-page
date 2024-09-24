@@ -19,10 +19,7 @@ Welcome to the repository for my personal website, built with **Next.js**, **Tai
 
 To run this project locally:
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/your-portfolio.git
-   ```
+1. Clone the repository
 2. install dependencies `npm install`
 3. run the dev server `npm run dev`
 
