@@ -6,7 +6,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const pages = slugs.map((slug) => ({
     url: "https://tamasstephen.com/" + slug,
     lastModified: new Date(),
-    priority: 2,
+    priority: 0.8,
   }));
   return [
     {
