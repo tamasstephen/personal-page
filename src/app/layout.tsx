@@ -11,6 +11,16 @@ export const metadata: Metadata = {
   verification: {
     google: "z-bM2fxskfZrgX9Wh4_E5W6oWyf-ZAlcQPSWXgN4Res",
   },
+  metadataBase: new URL("https://tamasstephen.com"),
+  alternates: {
+    canonical: "/",
+    languages: {
+      "en-US": "/en-US",
+    },
+  },
+  openGraph: {
+    images: "/opengraph-image.png",
+  },
 };
 
 const inter = Inter({ subsets: ["latin"] });
